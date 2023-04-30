@@ -1,0 +1,47 @@
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #a6a6a6;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px dashed #a6a6a6;
+}
+.separator::before {
+    margin-right: .25em;
+}
+.separator::after {
+    margin-left: .25em;
+}
+
+.modelRank{
+    float:right;
+}
+
+.modelRankGrayed{
+    color: #c9c9c9;
+}
+
+.input-sm{
+    height:34px;
+}
+
+#avatar {
+    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+    background-image: url('persona1.png');
+    
+    /* make a square container */
+    width: 100px;
+    height: 100px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: top center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+}
