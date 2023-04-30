@@ -1,0 +1,17 @@
+default:
+  dataconnection:
+    driver: 'SQLite3'
+    server: 'localhost'
+    uid: ''
+    pwd: ''
+    port: ''
+    database: 'db.sqlite'
+
+shinyapps:
+  dataconnection:
+    driver: 'PostgreSQL Unicode'
+    server: ''
+    uid: ''
+    pwd: ''
+    port: 5432
+    database: ''
