@@ -54,8 +54,8 @@ rsconnect::deployApp('git/fusion-project/fusion')
 ```
 4. It should now be accessible at `https://[your-username].shinyapps.io/fusion`.
 
-## This project is lead by
-# Prof. Dov Te'eni 
-# Dr. Inbal Yahav
-# Dr. Alexey Zagalsky
-# Prof. David G. Schwartz
+## This project is lead by:
+Prof. Dov Te'eni 
+Dr. Inbal Yahav
+Dr. Alexey Zagalsky
+Prof. David G. Schwartz
