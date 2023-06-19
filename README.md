@@ -5,7 +5,7 @@ Fusion is part of an ongoing project to study human-machine reciprocal learning.
 
 ## Fusion Development Requirements
 
-For Fusion's development we used R version 4.0.2 (2020-06-22).
+For Fusion's development, we used R version 4.0.2 (2020-06-22).
 In order to install the required packages, please use the [init.R](fusion/init.R) script file.
 
 <details><summary>More specific development session info</summary>
@@ -45,7 +45,7 @@ runApp(appDir = 'git/fusion-project/fusion', port=7775, host='0.0.0.0')
 
 ## Deploying to Shinyapps.io
 
-1. Create an account on and log-in to [https://www.shinyapps.io](https://www.shinyapps.io).
+1. Create an account and log-in to [https://www.shinyapps.io](https://www.shinyapps.io).
 2. Install the [rsconnect](https://cran.r-project.org/web/packages/rsconnect/index.html) package inside R-studio, and configure it to your personal shinyapps.io account following the instructions. 
 3. Deploy Fusion to shinyapps.io (note this will deploy all files inside that folder, including local DB files if those exist):
 ```R
@@ -54,7 +54,7 @@ rsconnect::deployApp('git/fusion-project/fusion')
 ```
 4. It should now be accessible at `https://[your-username].shinyapps.io/fusion`.
 
-## This project is lead by:
+## This project is led by:
 Prof. Dov Te'eni, teeni@tauex.tau.ac.il </p>
 Dr. Inbal Yahav, inbalyahav@tauex.tau.ac.il </p>
 Dr. Alexey Zagalsky, alexeyza@gmail.com </p>
