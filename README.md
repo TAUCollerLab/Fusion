@@ -1,6 +1,6 @@
 # About the project
 
-Fusion is part of an ongoing project to study human-machine reciprocal learning. Fusion is a software system designed to support Human-Machine reciprocal learning configured for text classification tasks. Some aspects of the project's work have been published ([CSCW 2021 paper](https://doi.org/10.1145/3479587)).
+Fusion is a software system designed to facilitate Reciprocal Human-Machine Learning (RHML), specifically tailored for text classification tasks. This innovative platform enables a symbiotic relationship between humans and machines, allowing each to learn from the other to improve overall performance and accuracy in classifying texts. The project's work have been published ([CSCW 2021 paper](https://doi.org/10.1145/3479587), [Management Science 2023](https://pubsonline.informs.org/doi/full/10.1287/mnsc.2022.03518)).
 
 
 ## Fusion Development Requirements
@@ -56,6 +56,6 @@ rsconnect::deployApp('git/fusion-project/fusion')
 
 ## This project is led by:
 Prof. Dov Te'eni, teeni@tauex.tau.ac.il </p>
-Dr. Inbal Yahav, inbalyahav@tauex.tau.ac.il </p>
+Prof. Inbal Yahav, inbalyahav@tauex.tau.ac.il </p>
 Dr. Alexey Zagalsky, alexeyza@gmail.com </p>
 Prof. David G. Schwartz, david.schwartz@biu.ac.il </p>
